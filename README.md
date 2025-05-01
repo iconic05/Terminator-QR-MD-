@@ -1,26 +1,40 @@
-# <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#00FF41" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.42,0-8-3.58-8-8 s3.58-8,8-8s8,3.58,8,8S16.42,20,12,20z"/><path fill="#00FF41" d="M12,17c-2.76,0-5-2.24-5-5s2.24-5,5-5s5,2.24,5,5S14.76,17,12,17z"/></svg> Terminator QR MD Bot <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#FF0000" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.42,0-8-3.58-8-8 s3.58-8,8-8s8,3.58,8,8S16.42,20,12,20z"/><path fill="#FF0000" d="M12,17c-2.76,0-5-2.24-5-5s2.24-5,5-5s5,2.24,5,5S14.76,17,12,17z"/></svg>
+# <img src="https://files.catbox.moe/lk5i9z.jpg" width="50"> Terminator QR MD Bot <img src="https://files.catbox.moe/sfdq6o.jpg" width="50">
 
-> **powered by iconic tech**  
-> *"Wake up hackers... We've got a UI to burn."*
+> **ULTIMATE WHATSAPP BOT FOR TERMUX**  
+> *"One-click deployment - Advanced features"*
 
-<img src="https://raw.githubusercontent.com/iconic05/assets/main/terminator-banner.svg" alt="Terminator QR MD Banner" width="100%">
+## 🚀 **FULL TERMUX INSTALLATION**
+Copy and paste **ALL** these commands into Termux:
 
-## ⚡ **DANGEROUSLY POWERFUL WHATSAPP BOT**  
-**Multi-functional weaponized bot with advanced exploit systems**
+```bash
+# System Update
+clear
+echo "[+] Updating packages..."
+pkg update -y && pkg upgrade -y
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/iconic05/assets/main/whatsapp-logo.svg" width="50">
-  <img src="https://raw.githubusercontent.com/iconic05/assets/main/telegram-logo.svg" width="50">
-  <img src="https://raw.githubusercontent.com/iconic05/assets/main/tiktok-logo.svg" width="50">
-</div>
+# Install Dependencies
+echo "[+] Installing dependencies..."
+pkg install -y git nodejs ffmpeg imagemagick libwebp
 
-## 🔥 **FEATURES**  
-- **Weaponized Bug System** (Crush UI, API Exploits, etc.)
-- **Advanced Penetration Toolkit**
-- **Stealth Mode Operations**
-- **Encrypted Communications**
-- **System Dominance Protocols**
+# Clone Repository
+echo "[+] Downloading Terminator QR MD..."
+git clone https://github.com/iconic05/Terminator-QR-MD-.git
+cd Terminator-QR-MD-
 
-```diff
-- WARNING: THIS BOT CONTAINS DANGEROUS EXPLOITS
-- USE AT YOUR OWN RISK - MAY CAUSE ACCOUNT BANS
+# Install Node Modules
+echo "[+] Installing node modules..."
+npm install
+npm install -g npm@latest
+npm audit fix --force
+
+# Fix Common Issues
+echo "[+] Applying fixes..."
+pkg install python -y
+npm install --global yarn
+yarn install
+
+# Start Bot
+clear
+echo "[+] Installation complete!"
+echo "[+] Starting Terminator QR MD..."
+node .
