@@ -4,13 +4,13 @@ const chalk = require("chalk")
 const fs = require("fs")
 
 global.ownerNumber = ["263786115435@s.whatsapp.net"]
-global.botnumber = "263786115435"
+global.botnumber = "50947449679"
 global.autotyping = false;
 global.autorecording = false;
-global.botnumber = ['263786115435']
+global.botnumber = ['50947449679']
 global.DevName = "iconic tech"
 global.ownerName = "iconic tech"
-global.Botname = "Terminator QR MD"
+global.Botname = "Peposageboy"
 global.versionBot = "𝟏"
 global.packname = "iconic tech"
 global.author = "powered by iconic tech"
